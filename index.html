@@ -25,6 +25,9 @@
 	</script>
 </head>
 <body>
+
+	<div id="loader"></div>
+
 	<header>
 		<div class="nav">
 			<ul class="nav-items" id="nav-items">
@@ -192,5 +195,17 @@
 
 	<script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
 	<script src="js/main.js" type="text/javascript"></script>
+
+<script>
+
+var loader = document.getElementById("loader");
+
+window.addEventListener("load", function(){
+loader.style.display = "none";
+})
+
+</script>
+
+
 </body>
 </html>
