@@ -317,6 +317,7 @@ hr {
 .builder,
 .developer,
 .eventer,
+.vedenie
 .admin {
 	padding: 12px;
 }
@@ -327,6 +328,7 @@ hr {
 .builder {background-color: rgba(255, 230, 4, 0.548);}
 .developer {background-color: rgba(116, 17, 155, 0.548);}
 .eventer {background-color: rgba(17, 160, 243, 0.527);}
+.vedenie {background.color: rgba(156, 11, 18, 0.527);}
 
 /* Announcement */
 
